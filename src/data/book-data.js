@@ -15,4 +15,8 @@ export const books = [
     }
 ]
 
-export const BookData = Promise.resolve(books);
+export const BookData = new Promise((resolve) => {
+   setTimeout(() => {
+       resolve(books)
+   }, 5000)
+});

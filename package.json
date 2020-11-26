@@ -10,12 +10,6 @@
     "lint": "eslint src",
     "test": "jest"
   },
-  "eslintConfig": {
-    "extends": "preact",
-    "ignorePatterns": [
-      "build/"
-    ]
-  },
   "devDependencies": {
     "enzyme": "^3.10.0",
     "enzyme-adapter-preact-pure": "^2.0.0",
